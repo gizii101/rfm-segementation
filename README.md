@@ -22,8 +22,8 @@ Cluster diinterpretasikan berdasarkan karakteristik Recency, Frequency, dan Mone
 File model di Link ini.
 
 # Dashboard
-Dashboard Preview
-
+    ![Teks deskriptif gambar](path/ke/gambar.png)
+    
 # Deployment & Integrasi
 Dashboard ini dikembangkan menggunakan Streamlit dan di-hosting melalui Streamlit Cloud. Sistem ini terintegrasi penuh dengan repositori GitHub, sehingga menerapkan prinsip Continuous Deployment: setiap perubahan kode atau syntax pada file .py di GitHub akan langsung memicu pembaruan otomatis pada live dashboard secara real-time.
 
@@ -34,11 +34,14 @@ Dashboard RFM: Eksplorasi dataset pelanggan berdasarkan cluster
 Prediksi Insight: Menginput data RFM pelangan untuk menentukan cluster dan rekomendasi
 Untuk menentukan cluster pelanggan, dibutuhkan data Recency, Frequency, dan Monetary pelanggan. Masukkan data bagian "Prediksi Insight" lalu klik "Analisis Sekarang" untuk melihat cluster pelanggan dan prediksi yang sesuai.
 # Teknologi & Library
-|Kategori| 	Tools / Library|
-|Bahasa|	Python|
-|Data Processing|	Pandas, NumPy|
-|Visualisasi|	Matplotlib, Seaborn|
-|ML Preprocessing|	StandardScaler, MinMaxScaler, PCA|
-|Clustering|	KMeans, Fuzzy C-Means (scikit-fuzzy)|
-|Evaluasi Model|	Silhouette Score|
-|Tools Tambahan|	Yellowbrick (KElbowVisualizer), Google Colab|
+
+| Kategori            | Tools / Library                                              |
+|---------------------|--------------------------------------------------------------|
+| Bahasa              | Python                                                       |
+| Data Processing     | Pandas, NumPy                                                |
+| Visualisasi         | Matplotlib, Seaborn                                          |
+| ML Preprocessing    | StandardScaler, MinMaxScaler, PCA                            |
+| Clustering          | KMeans, Fuzzy C-Means (scikit-fuzzy)                         |
+| Evaluasi Model      | Silhouette Score                                             |
+| Tools Tambahan      | Yellowbrick (KElbowVisualizer), Google Colab                 |
+
