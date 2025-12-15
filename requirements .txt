@@ -1,7 +1,7 @@
-streamlit
-streamlit-folium
-pandas<2.2
-numpy<2.0
-scikit-learn<1.5
-plotly
-joblib
+streamlit>=1.30,<2.0
+streamlit-folium>=0.20
+pandas>=1.5,<2.2
+numpy>=1.21,<2.0
+scikit-learn>=1.0,<1.5
+plotly>=5.0,<6.0
+joblib>=1.2
