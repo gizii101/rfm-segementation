@@ -10,11 +10,12 @@ Perubahan perilaku pasar di era digital menuntut strategi pemasaran yang lebih c
 # Tujuan
 Proyek ini bertujuan untuk:
 
-Menerapkan analisis RFM (Recency, Frequency, Monetary) untuk mengukur nilai pelanggan berdasarkan perilaku transaksi mereka, sehingga dapat memberikan pemahaman kuantitatif mengenai tingkat kedekatan, aktivitas, dan kontribusi pelanggan terhadap perusahaan.
-Mengembangkan model segmentasi pelanggan yang akurat dan representatif menggunakan algoritma clustering seperti K-Means atau Fuzzy C-Means, serta mengevaluasi bagaimana setiap algoritma membentuk kelompok pelanggan yang memiliki karakteristik serupa.
-Menyajikan hasil analisis dan segmentasi pelanggan melalui dashboard interaktif, sehingga wawasan yang dihasilkan dapat divisualisasikan secara jelas, mudah dipahami, dan mendukung pengambilan keputusan yang cepat, tepat, dan berbasis data.
+<br />Menerapkan analisis RFM (Recency, Frequency, Monetary) untuk mengukur nilai pelanggan berdasarkan perilaku transaksi mereka, sehingga dapat memberikan pemahaman kuantitatif mengenai tingkat kedekatan, aktivitas, dan kontribusi pelanggan terhadap perusahaan.
+<br />Mengembangkan model segmentasi pelanggan yang akurat dan representatif menggunakan algoritma clustering seperti K-Means dan mengevaluasi bagaimana setiap algoritma membentuk kelompok pelanggan yang memiliki karakteristik serupa.
+<br />Menyajikan hasil analisis dan segmentasi pelanggan melalui dashboard interaktif, sehingga wawasan yang dihasilkan dapat divisualisasikan secara jelas, mudah dipahami, dan mendukung pengambilan keputusan yang cepat, tepat, dan berbasis data.
+
 # Detail Pemodelan Clustering
-Dataset yang digunakan adalah dataset FLO Shopping Dataset dari kaggle
+Dataset yang digunakan adalah dataset Online Retail Dataset dari kaggle
 Dilakukan tahapan pre-processing data untuk membersihkan dan menyiapkan data agar siap diolah
 Dilakukan perhitungan skor RFM untuk mendapatkan nilai Recency, Frequency, dan Monetary setiap pelanggan
 Algoritma yang dipilih adalah K-Means dengan Silhouette Score 0.589 dengan pertimbangan visualisasi pemisahan cluster yang lebih baik
@@ -33,6 +34,7 @@ Executive Overview: Ringkasan secara umum mengenai proyek, dataset, serta eksplo
 Dashboard RFM: Eksplorasi dataset pelanggan berdasarkan cluster
 Prediksi Insight: Menginput data RFM pelangan untuk menentukan cluster dan rekomendasi
 Untuk menentukan cluster pelanggan, dibutuhkan data Recency, Frequency, dan Monetary pelanggan. Masukkan data bagian "Prediksi Insight" lalu klik "Analisis Sekarang" untuk melihat cluster pelanggan dan prediksi yang sesuai.
+
 # Teknologi & Library
 
 | Kategori            | Tools / Library                                              |
