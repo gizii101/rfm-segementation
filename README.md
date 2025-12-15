@@ -24,7 +24,6 @@ File model di Link ini.
 
 # Dashboard
    <img width="1919" height="943" alt="Screenshot 2025-12-15 121759" src="https://github.com/user-attachments/assets/36a45d1f-3167-4f45-abc8-70f1a998861d" />
- ![Teks deskriptif gambar](path/ke/gambar.png)
     
 # Deployment & Integrasi
 Dashboard ini dikembangkan menggunakan Streamlit dan di-hosting melalui Streamlit Cloud. Sistem ini terintegrasi penuh dengan repositori GitHub, sehingga menerapkan prinsip Continuous Deployment: setiap perubahan kode atau syntax pada file .py di GitHub akan langsung memicu pembaruan otomatis pada live dashboard secara real-time.
